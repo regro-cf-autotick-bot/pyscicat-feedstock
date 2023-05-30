@@ -1,11 +1,11 @@
-About pyscicat
-==============
+About pyscicat-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyscicat-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/scicatproject/pyscicat
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyscicat-feedstock/blob/main/LICENSE.txt)
 
 Summary: Code for communicating to a SciCat backend server python
 
