@@ -1,5 +1,5 @@
 {% set name = "pyscicat" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SciCatProject/pyscicat/archive/v{{ version }}.tar.gz
-  sha256: 79c95282d6e542d93e1c83137322b88538e380e54a06bf7fd82c892983ca7311
+  sha256: 7776e275e82c4535aa58986a0e996f0924778e0e15015880149ac312b15fb71b
 
 build:
   noarch: python
