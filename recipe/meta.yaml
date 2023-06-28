@@ -41,5 +41,6 @@ about:
                if using Scicat v4 please use latest release.
 extra:
   recipe-maintainers:
+    - lashemilt
     - abigailalexander
     - RFIMarvin
