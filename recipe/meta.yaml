@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SciCatProject/pyscicat/archive/v{{ version }}.tar.gz
-  sha256: 7776e275e82c4535aa58986a0e996f0924778e0e15015880149ac312b15fb71b
+  sha256: cf303a92cee65c3d53a7fd0a7fa0750e5c7ae7e9acd8f64069ddd6fb37745504
 
 build:
   noarch: python
