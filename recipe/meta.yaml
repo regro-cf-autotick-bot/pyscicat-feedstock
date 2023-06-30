@@ -1,13 +1,13 @@
 {% set name = "pyscicat" %}
-{% set version = "0.2.6" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/SciCatProject/pyscicat/archive/v{{ version }}.tar.gz
-  sha256: 7776e275e82c4535aa58986a0e996f0924778e0e15015880149ac312b15fb71b
+  url: https://files.pythonhosted.org/packages/30/cf/0eedabc21c5b07ce6c946b0bdfc89b64abbafbad0215f09743ede50d5d14/pyscicat-{{version}}.tar.gz
+  sha256: cf303a92cee65c3d53a7fd0a7fa0750e5c7ae7e9acd8f64069ddd6fb37745504
 
 build:
   noarch: python
@@ -37,8 +37,10 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE
   doc_url: https://scicatproject.github.io/pyscicat/
-
+  description: An API to upload data into Scicat. If using Scicat version 3, you will need to use pyscicat < 0.4.1 , 
+               if using Scicat v4 please use latest release.
 extra:
   recipe-maintainers:
+    - lashemilt
     - abigailalexander
     - RFIMarvin

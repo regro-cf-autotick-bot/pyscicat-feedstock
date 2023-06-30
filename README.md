@@ -11,6 +11,8 @@ Summary: Code for communicating to a SciCat backend server python
 
 Documentation: https://scicatproject.github.io/pyscicat/
 
+An API to upload data into Scicat. If using Scicat version 3, you will need to use pyscicat < 0.4.1 , if using Scicat v4 please use latest release.
+
 Current build status
 ====================
 
