@@ -1,13 +1,13 @@
 {% set name = "pyscicat" %}
-{% set version = "0.4.1" %}
+{% set version = "1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/30/cf/0eedabc21c5b07ce6c946b0bdfc89b64abbafbad0215f09743ede50d5d14/pyscicat-{{version}}.tar.gz
-  sha256: cf303a92cee65c3d53a7fd0a7fa0750e5c7ae7e9acd8f64069ddd6fb37745504
+  url: https://files.pythonhosted.org/packages/d4/a3/d74774d9b80f9c84a0906bf1850e1210940198da9e6d0dd7b7be969acbd6/pyscicat-0.{{ version }}.tar.gz
+  sha256: 41fac550e1d8f5d31d620ba784cf5424670660c423121b4d852e7de4ae467db2
 
 build:
   noarch: python
@@ -37,8 +37,7 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE
   doc_url: https://scicatproject.github.io/pyscicat/
-  description: An API to upload data into Scicat. If using Scicat version 3, you will need to use pyscicat < 0.4.1 , 
-               if using Scicat v4 please use latest release.
+  description: An API to upload data into Scicat. If using Scicat version 3, you will need to use pyscicat < 0.4.1 , if using Scicat v4 please use latest release.
 extra:
   recipe-maintainers:
     - lashemilt
